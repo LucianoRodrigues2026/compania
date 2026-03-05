@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@font-face {
+  font-family: urdi;
+  src: url('/font/urdi.otf');
+}
+*{
+  margin: 0;
+}
+:root{
+  --cor: #cc8105;
+  --corA: #053353;
+  --corB : #0964a4;
+  /*doourado*/
+  --cor1:#634900;
+  --cor2:#836900;
+  --cor3:#FFFFFE;
+  --cor4:#ffe552;
+  --cor5:#ffd902;
+}
+body{
+  background-attachment: fixed;
+  background-image: url('imagens/logo.png');
+  background-position: center;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: justify;
+}
+nav button {
+  border-right: 1px solid white;
+  background-color:var(--corA);
+  margin-right: 5px;
+}
+nav button#borda {
+  border-left: 1px solid white;
+  border-right: 0px solid white
+}
+nav button#borda1 {
+  border-left: 1px solid white;
+}
+nav {
+  margin: 0 auto;
+  height: 30px;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #053353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border: 0px 1px 0px 0px solid white ;
+
+  
+}
+nav a:hover {
+  background-image: linear-gradient(to bottom, red, var(--cor5));
+  background-clip: text;
+  color: #05325300;
+  padding: 5px;
+  text-decoration: underline;
+  max-width: 400px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
+header {
+  height: 150px;
+  margin-top: -5px;
+  background-image: url('imagens/1998.jpg');
+  background-size: 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+header img {
+  margin-right: 400px;
+  height: 100px;
+  width: 100px;
+
+}
+
+span#urdi {
+  background-color: #0964a4;
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+  cursor: pointer;
+}
+span#urdi:hover {
+  background-size: cover;
+  background-image: url('imagens/urdi2.png');
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  transform: translate(50px, -200px);
+  color: transparent;
+}
+body h1, h2, h3, h4, strong {
+  color: var(--corA);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main{
+  margin-top: 0;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 980px;
+  box-shadow: 0px 11px 20px -9px #00000085;
+  
+
+}
+main p{
+  line-height: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-indent: 30px;
+}
+div#imagen{ 
+  background-color: #053353;
+  background-image: url('imagens/1998.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  max-width: 980px;
+
+}
+div#embarque {
+  margin-bottom: 10px;
+  background-color: #053353;
+  background-image: url('imagens/embarque.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  max-width: 980px;
+
+}
+div#frota-nova {
+  margin-bottom: 10px;
+  background-color: #053353;
+  background-image: url('imagens/novoavião.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  max-width: 980px;
+
+}
+
+footer{
+  margin-bottom: -20px;
+  background-color: var(--corA);
+  text-align: center;
+  color: white;
+}
+
+ul li{
+  margin-left: -39px;
+  list-style-position: inside;
+  padding: 10px 63px 10px 14px;
+  background-color: #63beff;
+  text-align: justify;
+  line-height: 28px;
+}
